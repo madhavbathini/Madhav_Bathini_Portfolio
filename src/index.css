@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg-deep: #050608;
+  --color-accent-blue: #00d2ff;
+  --color-glass-bg: rgba(255, 255, 255, 0.03);
+  --color-glass-border: rgba(255, 255, 255, 0.08);
+  --color-text-primary: #f8fafc;
+  --color-text-secondary: #94a3b8;
+}
+
+@layer base {
+  body {
+    @apply bg-bg-deep text-text-primary antialiased;
+  }
+}
+
